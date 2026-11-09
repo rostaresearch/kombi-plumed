@@ -1,0 +1,182 @@
+[
+  {
+    "baseline": "baseline_native_logged_1",
+    "candidate": "verified_native_logged_1",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "bias_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "energy": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "physical_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "positions_nm": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "q_A": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "velocities_nm_ps": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  {
+    "baseline": "baseline_native_logged_1",
+    "candidate": "verified_native_logged_2",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "bias_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "energy": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "physical_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "positions_nm": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "q_A": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "velocities_nm_ps": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  {
+    "baseline": "baseline_native_logged_1",
+    "candidate": "verified_native_selected_1",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "bias_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "energy": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "physical_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "positions_nm": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "q_A": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "velocities_nm_ps": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  {
+    "baseline": "baseline_native_logged_1",
+    "candidate": "verified_native_selected_2",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "bias_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "energy": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "physical_forces": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "positions_nm": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "q_A": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "velocities_nm_ps": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  {
+    "baseline": "baseline_native_lean_1",
+    "candidate": "verified_native_lean_1",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  },
+  {
+    "baseline": "baseline_native_lean_1",
+    "candidate": "verified_native_lean_2",
+    "checks": {
+      "final_positions": {
+        "exact": true,
+        "max_abs": 0.0
+      },
+      "final_velocities": {
+        "exact": true,
+        "max_abs": 0.0
+      }
+    }
+  }
+]

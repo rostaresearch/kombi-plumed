@@ -1,0 +1,13 @@
+* text=auto eol=lf
+# Frozen scientific sources retain the exact bytes identified in provenance.
+src/** -text
+tests/** -text
+third_party/** -text
+examples/*.dat -text
+examples/*.xyz -text
+examples/make_examples.py -text
+integrations/openmm-plumed/openmmapi/** -text
+integrations/openmm-plumed/serialization/** -text
+*.png binary
+*.pdf binary
+*.gz binary

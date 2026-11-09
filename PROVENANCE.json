@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-03",
+  "scope": "Directed hard-bin Ras Pi, 1D and 2D; RKHS deferred",
+  "reference_files": [
+    {
+      "path": "tests/reference/code/config.py",
+      "sha256": "b3595ff4949a9c8aab389c1962aebca4c7cc31db1cc10dea7e2445a2696a9cf3"
+    },
+    {
+      "path": "tests/reference/code/dham.py",
+      "sha256": "f8698f76eb1e662a8fab9146768de622d5ab2e46b2667ebd4c9e13f33a72bfb4"
+    },
+    {
+      "path": "tests/reference/code/estimator.py",
+      "sha256": "b4606534c1ca8d38e8ad8f4e23541b36949314f326181af6356f168c6876d939"
+    },
+    {
+      "path": "tests/reference/code/geometry.py",
+      "sha256": "76208da409aedff247afa567b845a3088f1db8f1400bf09ac8edf8e8359b4437"
+    },
+    {
+      "path": "tests/reference/code/MSM.py",
+      "sha256": "b0e5560fca85be017243aa5975b1a3add6665b2b5a58921cb1e2329446aa7119"
+    },
+    {
+      "path": "tests/reference/code/util.py",
+      "sha256": "b75ffb2d88b17e28b30d20c707abeda85dc884b61a2fed769430709b111d1615"
+    },
+    {
+      "path": "tests/reference/tests/conftest.py",
+      "sha256": "2dfdb759317d22d6c891d6dc4820a70d2d8bbc37784250342ee37ad5942a9228"
+    },
+    {
+      "path": "tests/reference/tests/legacy_reference.py",
+      "sha256": "7d5c2d8d6494eb27384f7c7ad4f56c2396955846039912ed89e0641020ac8d71"
+    },
+    {
+      "path": "tests/reference/tests/test_directed_only.py",
+      "sha256": "c95b6d2beb32af1763c0026aa57947a41f53ed1c5a46519701863ad8aec4cc1d"
+    },
+    {
+      "path": "tests/reference/tests/test_equivalence.py",
+      "sha256": "15c189d27d0f11646b29ac8edd339ae201547c682a6b76e8c3d885873954ce6b"
+    },
+    {
+      "path": "tests/reference/tests/test_mfpt.py",
+      "sha256": "db8da52c3f42e9f9287678ed80a4407ba742184c29f724874c80cde427e4a342"
+    },
+    {
+      "path": "tests/reference/tests/test_protocol.py",
+      "sha256": "867a37e2c34b72d4ef42f43dc4ca792cbe5ed9d40808d4dcf040b8947f23f1c1"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/analysis.py",
+      "sha256": "fdad59e7bad4d342d8b430fb94c9bba0c8fd03d85df5c45a77ed5c11185506d7"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/config.py",
+      "sha256": "564330862897eabe8606e1d1b889d4806f5a9ed0da6096cde411842302de829e"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/dham.py",
+      "sha256": "32a185985e56b6b8dcd1df0cac2e9dfd9df8f686e55764a9e7aba7f386960218"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/langevin_sim_metad.py",
+      "sha256": "bde665f8808d73318b32fb50ddd0fec0e1816c51787e8aaa14660d1a9c665219"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/langevin_sim_mfpt_opt.py",
+      "sha256": "2b707e1920977c5ace6e142223f78b46ee068d710ec023aace2d798fa846d1db"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/langevin_sim_unbiased.py",
+      "sha256": "31c748b55a8a76f8ca71b09955a38406f4b61ec98eb91f7ff7287085ade834bf"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/mfpt_safety.py",
+      "sha256": "96686869dcefa8152f18453ee9d872dfbc0afb1eb7695a53f0b05ca3471d1fb6"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/unbiased_numba.py",
+      "sha256": "d565989e7b2162de891bed4af481bd73ffbacf29827c9f23697fa3f9d5f7e56a"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_langevin_sim/util.py",
+      "sha256": "5f08a9ca2dcd26eef45fe20e987a6a6248e744a089c1a3badf7977127c4b355a"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/analysis.py",
+      "sha256": "b5737bd36a275b35e9e8adcd4c3d0f7b1fb1bd71bb4fc9c6f58cf4ceba035664"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/config.py",
+      "sha256": "7882adefdd41f8401f3c0a0b35c5b3795da5a06e30f2b6b1bda318a64b02cfaf"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/dham.py",
+      "sha256": "40de50cc83c09dc5c507bba08ea45e34fffc40561e9be69146152632b0fc0e93"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/metaD_NaCl_sim.py",
+      "sha256": "6d0f2e9a87bd6bc7d70a020c8da615f60a97906e184ab5f78177e07c53520afe"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/mfpt_NaCl.py",
+      "sha256": "7449fc2a6c9b45cd1165eb66fa37d4b48f3ce6770bb1c18a7064bbd7803aef58"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/mfpt_safety.py",
+      "sha256": "96686869dcefa8152f18453ee9d872dfbc0afb1eb7695a53f0b05ca3471d1fb6"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/prepare_pbc_box.py",
+      "sha256": "1ddfca2d6951c42a0767347516c8c9e62461bd324d906885c8503d177c59ac13"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/unbias_NaCl_sim.py",
+      "sha256": "1365392cb77ef5d10d9ff996ab0647de6bf1e27542591c02f9cc2aaa2cbdd771"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/unbias_traj_fes_gen.py",
+      "sha256": "8c09fdd4b599668af84d57029f4fef1f61d9bc867689598ef3ed78a7218ad9a2"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/1D_NaCl_TW/util.py",
+      "sha256": "351be2043a145869124d3d4c2de35bef918556bc22f24c19bdfa5d7e9fac0693"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/2D_opt_K.py",
+      "sha256": "b78aa2ab00a4672a2deb09fca40a6b53cf234df52c26d1ba159e152b71a221e5"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/analysis.py",
+      "sha256": "80bb389e922e2f68e7913e80eee5dded24a3736d159a411fe90f328660a5b399"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/config.py",
+      "sha256": "facfa1b111546cb2c028e02eb4a00aa6482b07e9ea0b5af9a28cc6ef0c93b270"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/dham.py",
+      "sha256": "9cdca55859766ef6d9b8d8b0ff04aa90f30a0eb0006b3bdc085d927180c14987"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/fit_dialanine_fourcos.py",
+      "sha256": "afa05ab945fb3bfda9a895f121628594fc4250983e5c822bac23148cc441b6ba"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/fit_dialanine_gauss.py",
+      "sha256": "08389902ed9fb026150a191079a57df71f96dbdfa31130447cf8131b4a785028"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/langevin_sim_metad.py",
+      "sha256": "64e5005866ad4307fbf3965c89e06f719e6e863c58afc09f03c6fde9f21476e0"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/langevin_sim_mfpt_opt.py",
+      "sha256": "aa586d321647dfeee69ef44fbac940727aee0cbcbce391c4bce2e6b6d5fa91d2"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/langevin_sim_unbiased.py",
+      "sha256": "db7e5611348cd0cceebd850f0111fb0f6e305add87ffc2430c4e258b1bb325ac"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/mfpt_safety.py",
+      "sha256": "96686869dcefa8152f18453ee9d872dfbc0afb1eb7695a53f0b05ca3471d1fb6"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/MSM.py",
+      "sha256": "608e22b2fe0fe325339d31bb9f9f224b4eb335b60cc2c2a19a174fa953831d08"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/plain_multi_well_2D_fes.py",
+      "sha256": "a7fb905762ad7e71e64b1b6f6024b6202b2bce69985231a5f021d7ec857c3247"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/test.py",
+      "sha256": "b408b87863442fe5dec9e0d7ffb7d751a2859c61d6342700eac665e0cbdb117f"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/test_util.py",
+      "sha256": "c5af0feb8b27b78e3892d58d287ff2ac4c9ca08400c319365edf394a8f4fc88a"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/unbiased_numba.py",
+      "sha256": "58785ad6cdf95aecfb7e99b171308b71c6d2b8227bcc6b26f558d0568b98869b"
+    },
+    {
+      "path": "tests/lowdim_reference/legacy_examples/2D_langevin_sim/util.py",
+      "sha256": "dcafe23e59980eec36fbd6947427f3212295847e4baf4175e1595b68ec8bf52e"
+    },
+    {
+      "path": "tests/lowdim_reference/tests/test_legacy_drivers.py",
+      "sha256": "50cae339e3212cbd52bec5233a689a75efa1e92c9c3f641681dccd161b0ab18b"
+    },
+    {
+      "path": "tests/safety_reference/code/one_d/mfpt_safety.py",
+      "sha256": "96686869dcefa8152f18453ee9d872dfbc0afb1eb7695a53f0b05ca3471d1fb6"
+    },
+    {
+      "path": "tests/safety_reference/tests/test_mfpt_safety.py",
+      "sha256": "7f0e2e29f61d6033184c3204157ad830eab588f9450cb0897adcbb4d7571e849"
+    },
+    {
+      "path": "tests/protocols/ras_a5_l20_run100.json",
+      "sha256": "4e8cd382049067dc143677add2a456892e635ccc55070fc451ac98625df19577"
+    }
+  ],
+  "archives": [
+    {
+      "path": "Local source path omitted from public package; content hashes retained.",
+      "sha256": "0ee0bf3ac3bc7b455efa72c99341b3131e0d078c56f56ec80ee4008fd9b412af"
+    }
+  ],
+  "lbfgsb": {
+    "url": "https://github.com/stephenbeckr/L-BFGS-B-C",
+    "commit": "164463486a20a5185dd087c2636b6b278a297e4b",
+    "license": "BSD-3-Clause; third_party/lbfgsb/LICENSE",
+    "files": [
+      {
+        "path": "third_party/lbfgsb/driver1.c",
+        "sha256": "8a500677db98bccb6c5a8a6975d8c5f14bd1b9d82b7363635d5d52ab9cd3cc33"
+      },
+      {
+        "path": "third_party/lbfgsb/driver2.c",
+        "sha256": "9fcad293e0af855e7946d9fe29db55c6a9759d79163fd4f11f582e824a3d7f36"
+      },
+      {
+        "path": "third_party/lbfgsb/driver3.c",
+        "sha256": "95d981a7debfd1525e6109f5572e1ef0aef3d56033cd2c7f16b39407173c3093"
+      },
+      {
+        "path": "third_party/lbfgsb/lbfgsb.c",
+        "sha256": "c00654523b12cfc9c81d2effa17657104e7a2a24069d44e5de1ef219305e6d83"
+      },
+      {
+        "path": "third_party/lbfgsb/lbfgsb.h",
+        "sha256": "c5a3ce3d4591f59e545ebe95f0ec3d1109414f118e7a4826af84887e0905c44e"
+      },
+      {
+        "path": "third_party/lbfgsb/LICENSE",
+        "sha256": "4797b6dfe8d9d36758bd3389b39b2c25046b3760193fc2c1dbaf896eea1f4737"
+      },
+      {
+        "path": "third_party/lbfgsb/linesearch.c",
+        "sha256": "63e6e1e2e7dd437f69ec78cbe918c244b1f97f21170833427794691784db7750"
+      },
+      {
+        "path": "third_party/lbfgsb/linpack.c",
+        "sha256": "5e4546873c7700ae820166a233c34d3c8b95993302f10e1b5327765b2ee9b77d"
+      },
+      {
+        "path": "third_party/lbfgsb/miniCBLAS.c",
+        "sha256": "afc0fcf5b4c5e9d51898a32ebc619df6c0aacf42495ab9979d198a1563da4cfb"
+      },
+      {
+        "path": "third_party/lbfgsb/print.c",
+        "sha256": "55d4f0db3b0a8b7b970a3428ecfe5948311687a44e927d22b628936fa3493807"
+      },
+      {
+        "path": "third_party/lbfgsb/subalgorithms.c",
+        "sha256": "33895d77527efce423dec2ca37b0abb59cb42c6b62c348e263f813dfe4dbc04b"
+      },
+      {
+        "path": "third_party/lbfgsb/test_parallel.c",
+        "sha256": "7fb010f25743961aadb821b0eef05f76f2ac77ca367a6525b0abea778be65b62"
+      },
+      {
+        "path": "third_party/lbfgsb/timer.c",
+        "sha256": "faa534b2fd8d15124090ec3328d7f150ec6b280341295e8132139fa63bd881f7"
+      }
+    ]
+  }
+}

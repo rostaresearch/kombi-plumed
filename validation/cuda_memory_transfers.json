@@ -1,0 +1,51 @@
+{
+  "columns": [
+    "copy_kind",
+    "calls",
+    "bytes",
+    "gpu_time_ns"
+  ],
+  "runs": {
+    "native_profile": [
+      [
+        1,
+        560,
+        641245860,
+        56769255
+      ],
+      [
+        2,
+        3773,
+        6043730480,
+        465913367
+      ],
+      [
+        8,
+        1004,
+        3213828096,
+        20229468
+      ]
+    ],
+    "verified_profile": [
+      [
+        1,
+        562,
+        41495976,
+        5334560
+      ],
+      [
+        2,
+        3773,
+        4443250320,
+        344860417
+      ],
+      [
+        8,
+        1004,
+        3213828096,
+        20273077
+      ]
+    ]
+  },
+  "scope": "Complete trace, including initialization and warmup; not the timed benchmark region alone."
+}

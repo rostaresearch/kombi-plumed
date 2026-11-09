@@ -1,0 +1,14 @@
+{
+  "integrations/openmm-plumed/openmmapi/include/PlumedForce.h": "f4bdf824bbe69052b991cbbe694a4ad9e2af76bac49928c0a2a50352d5f08f06",
+  "integrations/openmm-plumed/openmmapi/include/PlumedKernels.h": "91b1cecce1b811c147f7f8ba04ab9ab96b38ae498a912149ac1b4ef2e289c6c4",
+  "integrations/openmm-plumed/openmmapi/src/PlumedForce.cpp": "4a9051027b626737a8ab675467277ede55a47b218bf1bdc693056408bf8309d4",
+  "integrations/openmm-plumed/openmmapi/src/PlumedForceImpl.cpp": "f25b2e917c46c010ffd2c1c7ab7e4fb80f3c182b8c633c6c138b6886b4b7c752",
+  "integrations/openmm-plumed/openmmapi/src/SparseCuda.h": "4799b4135b0deb1ad4d709412c861db629a4da7d8135e05632f185bdd902eb11",
+  "integrations/openmm-plumed/openmmapi/include/internal/PlumedForceImpl.h": "d58bba475aec729e715c697c4eba3cc563ea7f709426a8a7e3e5954e3978ee70",
+  "integrations/openmm-plumed/openmmapi/include/internal/windowsExportPlumed.h": "5d238041408fe014c49f3c0f8af9b23c2f1536ff91a72bb4423c80fd622ba8a6",
+  "integrations/openmm-plumed/serialization/include/PlumedForceProxy.h": "2087cba67036201e2a2f04557e4322f6947acada8361791a220065e685d7fc7c",
+  "integrations/openmm-plumed/serialization/src/PlumedForceProxy.cpp": "cc4d883652f1c106190cf1db118cf65df1d9743cbab85621640664cff3af50b1",
+  "integrations/openmm-plumed/serialization/src/PlumedSerializationProxyRegistration.cpp": "d6f5759d4c810749e662901b8bd6e0b617f004301b849b884a1ff594fa3b8d2d",
+  "integrations/openmm-plumed/serialization/tests/CMakeLists.txt": "27a2846cd04ed7cd05cb8d625257cccedce111ffa6940a7f4e4a02c0d823ecc4",
+  "integrations/openmm-plumed/serialization/tests/TestSerializePlumedForce.cpp": "de25348cdffa42e6d9cf5e3075d1bd0055874ac0241eff51a3324d2a8b368504"
+}

@@ -1,0 +1,10 @@
+numpy==1.26.4
+scipy==1.17.1
+pytest==9.1.1
+mpmath==1.4.1
+openmm==8.1.2
+matplotlib==3.10.9
+Pillow==12.2.0
+tqdm==4.67.3
+mdtraj==1.11.1
+numba==0.67.0

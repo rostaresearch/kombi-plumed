@@ -1,0 +1,20 @@
+{
+  "per_build": {
+    "plumed-2.10.2": 147,
+    "plumed-2.11-dev": 147
+  },
+  "by_module": {
+    "tests.lowdim_reference.tests.test_legacy_drivers": 34,
+    "tests.reference.tests.test_directed_only": 3,
+    "tests.reference.tests.test_equivalence": 8,
+    "tests.reference.tests.test_mfpt": 7,
+    "tests.reference.tests.test_protocol.ProtocolTests": 9,
+    "tests.safety_reference.tests.test_mfpt_safety.TestSafety": 10,
+    "tests.test_examples": 6,
+    "tests.test_models": 13,
+    "tests.test_native_core": 20,
+    "tests.test_plumed": 33,
+    "tests.test_stopping": 4
+  },
+  "deselected_nacl": 22
+}

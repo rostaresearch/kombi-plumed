@@ -1,0 +1,19 @@
+[
+  {
+    "test": "transport",
+    "arrays": 1452,
+    "exact": true,
+    "differences": {}
+  },
+  {
+    "test": "adaptive",
+    "arrays": 322,
+    "exact": true,
+    "differences": {},
+    "exact_files": {
+      "k.state": true,
+      "k.history": true,
+      "COLVAR": true
+    }
+  }
+]

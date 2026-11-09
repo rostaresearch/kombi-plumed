@@ -1,0 +1,10 @@
+........................................................................ [ 48%]
+........................................................................ [ 97%]
+....                                                                     [100%]
+=============================== warnings summary ===============================
+tests/reference/tests/test_equivalence.py::test_dham_run_end_to_end
+  tests/reference/code/MSM.py:78: RuntimeWarning: divide by zero encountered in log
+    self.free_energy = -self.kBT * np.log(self.peq)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+148 passed, 22 deselected, 1 warning in 19.06s

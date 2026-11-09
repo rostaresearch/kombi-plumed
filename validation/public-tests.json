@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-09",
+  "plumed-2.11-dev": {
+    "passed": 148,
+    "deselected": 22,
+    "wall_s": 29.85
+  },
+  "plumed-2.10.2": {
+    "passed": 148,
+    "deselected": 22,
+    "wall_s": 19.06
+  },
+  "warnings": "One existing reference log(0) warning on each build."
+}

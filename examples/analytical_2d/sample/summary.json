@@ -1,0 +1,18 @@
+{
+  "plumed_version": "2.11.0-dev",
+  "engine": "PLUMED pesmd",
+  "seed": 20261103,
+  "steps_requested": 50000,
+  "steps_completed": 10850,
+  "elapsed_ps": 21.7,
+  "complete_kombi_windows": 2,
+  "target_reached": true,
+  "biased_first_passage_ps": 21.7,
+  "final_xy_nm": [
+    0.9032369280194369,
+    1.4829001506448967
+  ],
+  "thermal_energy_kcal_mol": 0.5961612777,
+  "wall_seconds": 3.087461620569229,
+  "note": "Unit-mass pesmd demonstration; not a reproduction of OpenMM kinetics."
+}
